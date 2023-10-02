@@ -23,7 +23,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.cs"
+          "url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"
         },
         "projection": {
           "type": "equalEarth"
