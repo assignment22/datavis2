@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A scatterplot showing number of students at the highest ranked unis",
-  "data": {"url": "data/cars.json"},
+  "data": {"url": "https://github.com/assignment22/datavis2/blob/main/World%20University%20Rankings%202023.csv"},
   "mark": "point",
   "transform": [{
     "calculate": "'https://www.google.com/search?q=' + datum.Name", "as": "url"
