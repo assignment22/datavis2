@@ -1,4 +1,4 @@
-var vg_1 = "week9.vl.json";
-vegaEmbed("#map", vg_1).then(function(result) {
+var spec1 = "week9.vl.json";
+vegaEmbed("#map", spec1).then(function(result) {
 
 }).catch(console.error);
