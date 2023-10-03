@@ -7,8 +7,8 @@
     "calculate": "'https://www.google.com/search?q=' + datum.Name", "as": "url"
   }],
   "encoding": {
-    "x": {"field": "Horsepower", "type": "quantitative"},
-    "y": {"field": "Miles_per_Gallon", "type": "quantitative"},
+    "x": {"field": "Name of University", "type": "qualitative"},
+    "y": {"field": "No of student", "type": "quantitative"},
     "color": {"field": "Origin", "type": "nominal"},
     "tooltip": {"field": "Name", "type": "nominal"},
     "href": {"field": "url", "type": "nominal"}
