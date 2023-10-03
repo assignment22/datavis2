@@ -1,4 +1,4 @@
-University Rank,Name of University,Location,No of student,No of student per staff,International Student,Female:Male Ratio,OverAll Score,Teaching Score,Research Score,Citations Score,Industry Income Score,International Outlook Score,Latitude,Longitude
+University Rank,Name of University,Location,No of student,No_of_student_per_staff,International Student,Female:Male Ratio,Overall_score,Teaching Score,Research Score,Citations Score,Industry Income Score,International Outlook Score,Latitude,Longitude
 1,University of Oxford,United Kingdom,"20,965",10.6,42%,48:52:00,96.4,92.3,99.7,99,74.9,96.2,51.7579,-1.2618
 2,Harvard University,United States,"21,887",9.6,25%,50:50:00,95.2,94.8,99,99.3,49.5,80.5,42.3744,-71.1182
 3,University of Cambridge,United Kingdom,"20,185",11.3,39%,47:53:00,94.8,90.9,99.5,97,54.2,95.8,52.2054,0.1132
