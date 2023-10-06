@@ -1,17 +1,32 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A scatterplot showing number of students at the highest ranked unis",
-  "data": {"url": "https://github.com/assignment22/datavis2/blob/main/World%20University%20Rankings%202023.csv"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"
+  },
+  "height": 500,
+  "width": 500,
+ 
   "mark": "point",
-  "transform": [{
-    "calculate": "'https://www.google.com/search?q=' + datum.Name", "as": "url"
-  }],
   "encoding": {
-    "x": {"field": "Name of University", "type": "nominal"},
-    "y": {"field": "No of student", "type": "quantitative"},
-    "color": {"field": "Origin", "type": "nominal"},
-    "tooltip": {"field": "Name OF University", "type": "nominal"},
-    "href": {"field": "url", "type": "nominal"}
+    "y": {"field": "No_of_student_per_staff", "type": "quantitative"},
+    "x": {"field": "Overall_score", "type": "quantitative"},
+    "color": {
+    "field": "No_of_student_per_staff",
+    "type": "quantitative",
+    "title": "No of students per staff member",
+    "scale": {"domain": [1, 40], "scheme": "reds"},
+    "legend": {"format": ".2s"}
+  },
+
+    "tooltip": [
+  {"field": "Name of University", "type": "nominal", "title":
+  "Name of University"},
+  {
+    "field": "Location",
+    "type": "nominal",
+    "title": "Country",
+  },
+]
   }
 }
 
