@@ -1,33 +1,60 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 500,
+  "width": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"
   },
-  "height": 500,
-  "width": 500,
- 
-  "mark": "point",
-  "encoding": {
-    "y": {"field": "No_of_student_per_staff", "type": "quantitative"},
-    "x": {"field": "Overall_score", "type": "quantitative"},
-    "color": {
-    "field": "No_of_student_per_staff",
-    "type": "quantitative",
-    "title": "No of students per staff member",
-    "scale": {"domain": [1, 40], "scheme": "reds"},
-    "legend": {"format": ".2s"}
-  },
+  "params": [
+    {
+    "name": "Country_selection",
+    "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "United States",
+          "United Kingdom",
+          "Australia",
+          "South Korea",
+          "Netherlands"
+          ],
+          "labels":[
+            "Show All",
+            "United States",
+            "United Kingdom",
+            "Australia",
+            "South Korea",
+            "Netherlands"
+          ],
+          "name": "Country Selection: "
 
-    "tooltip": [
-  {"field": "Name of University", "type": "nominal", "title":
-  "Name of University"},
-  {
-    "field": "Location",
-    "type": "nominal",
-    "title": "Country",
-  },
-]
-  }
+    }
 }
+],
+"transform": [
+{"filter": "Country_selection == null || datum.Country == Country_selection"}
+],
+      "mark": "point",
+      "encoding": {
+        "y": {"field": "No_of_student_per_staff", "type": "quantitative"},
+        "x": {"field": "Overall_score", "type": "quantitative"},
+        "color": {
+        "field": "No_of_student_per_staff",
+        "type": "quantitative",
+        "title": "No of students per staff member",
+        "scale": {"domain": [1, 40], "scheme": "reds"},
+        "legend": {"format": ".2s"}
+      },
 
+        "tooltip": [
+      {"field": "Name of University", "type": "nominal", "title":
+      "Name of University"},
+      {
+        "field": "Location",
+        "type": "nominal",
+        "title": "Country"
+      }
+      ]
 
+}
+}
