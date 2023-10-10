@@ -4,9 +4,13 @@
     padding: 55px;
     padding-top: 40px;
     
-.content {
-  max-width: 500px;
-  margin: auto;
+.someElement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
 }
 
 .vis-container1 {
