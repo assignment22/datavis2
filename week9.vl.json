@@ -40,6 +40,16 @@
           },
           "size": {"value": 15},
           "color": {"value": "purple"}
+            
+        "tooltip": [
+            {"field": "Name of University", "type": "nominal", "title":
+            "Name of University"},
+            {
+              "field": "Location",
+              "type": "nominal",
+              "title": "Country"
+            }
+            ] 
         }
       }
     ]
