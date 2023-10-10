@@ -48,6 +48,11 @@
               "field": "Location",
               "type": "nominal",
               "title": "Country"
+            },
+            {
+              "field": "University Rank",
+              "type": "ordinal",
+              "title": "Rank"
             }
             ] 
         }
