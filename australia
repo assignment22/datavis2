@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"
+  },
+  "width": 500,
+  "height": 400,
+  "transform": [{"filter":{"field":"Location","equal":"Australia"}
+                }
+  ],
+  
+
+  "layer": [
+    {
+      "mark": "bar",
+      "title": "Top universities in Australia",
+      "encoding": {
+        "y": {"field": "No of student", "type": "nominal", "sort": "descending"},
+        "x": { "field": "University Rank","type": "ordinal","sort": "descending"},
+        "color": {"value": "#fa9fb5"},
+        "tooltip": [
+      {
+        "field": "Name of University", "type": "nominal",
+        "title": "Name",
+      },
+      {"field": "University Rank", "type": "nominal", "title":
+      "Rank"},
+      ]
+   
+  }
+        
+      }
+    
+    ]
+
+}
