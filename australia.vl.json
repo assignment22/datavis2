@@ -23,9 +23,9 @@
       {
         "field": "Name of University", "type": "nominal",
         "title": "Name",
-      },
+      }
       {"field": "University Rank", "type": "nominal", "title":
-      "Rank"},
+      "Rank"}
       ]
    
   }
