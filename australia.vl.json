@@ -22,8 +22,8 @@
         "tooltip": [
       {
         "field": "Name of University", "type": "nominal",
-        "title": "Name",
-      }
+        "title": "Name"
+      },
       {"field": "University Rank", "type": "nominal", "title":
       "Rank"}
       ]
