@@ -188,12 +188,12 @@ University Rank,Name of University,Location,No of student,No_of_student_per_staf
 188,National Taiwan University (NTU),Taiwan,"25,215",11.4,11%,42:58:00,55.2,50.2,55.5,60.1,75.1,47.2,,
 189,Friedrich Schiller University Jena,Germany,"16,446",20.6,14%,,55,42.4,39.9,81.3,49.7,62.8,,
 190,Karlsruhe Institute of Technology,Germany,"22,673",21.6,20%,29 : 71,55,46.7,54.2,57.8,89.7,68.6,,
-191,University of Massachusetts,United States,"63,338",13.2,14%,49:51:00,54.9,41.2,33.5,87.8,51.7,65,,
-192,University of Aberdeen,United Kingdom,"13,205",16.2,44%,58:42:00,54.8,30.7,34.1,89.8,47.5,95.9,,
-193,"University of California, Santa Cruz",United States,"19,266",22.6,14%,47:53:00,54.8,32.6,33.3,95.9,46.2,67.9,,
-194,Medical University of Vienna,Austria,"7,274",8.4,33%,50:50:00,54.6,35,27.6,94,61.2,81.7,,
-195,University of Miami,United States,"17,009",10.8,16%,53:47:00,54.6,48.4,33.5,81,48.3,60.2,,
-196,University of Erlangen-Nuremberg,Germany,"30,303",43.4,13%,51:49:00,54.5,44.6,47.5,68.8,90.7,53.5,,
+191,University of Massachusetts,United States,"63,338",13.2,14%,49:51:00,54.9,41.2,33.5,87.8,51.7,65,42.3868,-72.5301
+192,University of Aberdeen,United Kingdom,"13,205",16.2,44%,58:42:00,54.8,30.7,34.1,89.8,47.5,95.9,57.1648,-2.1015
+193,"University of California, Santa Cruz",United States,"19,266",22.6,14%,47:53:00,54.8,32.6,33.3,95.9,46.2,67.9,36.9905, -122.0584
+194,Medical University of Vienna,Austria,"7,274",8.4,33%,50:50:00,54.6,35,27.6,94,61.2,81.7,48.2196, 16.3474
+195,University of Miami,United States,"17,009",10.8,16%,53:47:00,54.6,48.4,33.5,81,48.3,60.2,25.7174, -80.2781
+196,University of Erlangen-Nuremberg,Germany,"30,303",43.4,13%,51:49:00,54.5,44.6,47.5,68.8,90.7,53.5,49.5979, 11.0045
 197,Sichuan University,China,"49,543",15.8,6%,,54.5,57.1,58.6,48.6,93.4,38.7,30.6640, 107.0704
 198,Durham University,United Kingdom,"18,425",14.1,35%,54:46:00,54.4,40,44.6,70,39.4,94.3,54.7650, -1.5782
 199,Queen’s University Belfast,Ireland,"19,060",15.8,39%,57:43:00,54.4,31.1,37.9,84.4,41.6,97.4,54.5844, -5.934
