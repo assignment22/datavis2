@@ -37,8 +37,8 @@
 ],
       "mark": "point",
       "encoding": {
-        "y": {"field": "No_of_student_per_staff", "type": "quantitative"},
-        "x": {"field": "Overall_score", "type": "quantitative"},
+        "y": {"field": "No_of_student_per_staff", "type": "quantitative","title":"Number of students per staff"},
+        "x": {"field": "Overall_score", "type": "quantitative","title":"Overall Score"},
         "color": {
         "field": "University Rank",
         "type": "quantitative",
