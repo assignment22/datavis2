@@ -72,7 +72,7 @@ University Rank,Name of University,Location,No of student,No_of_student_per_staf
 71,Boston University,United States,"27,243",10.8,31%,59:41:00,67.5,55.9,56.1,92.9,41.1,65.9, 42.350876, -71.106918
 71,UNSW Sydney,Australia,"45,133",36.3,40%,47:53:00,67.5,51.1,59,85.9,63.5,95.1,-33.9173,151.2313
 73,Charité - Universitätsmedizin Berlin,Germany,"8,429",18,21%,64:36:00,67.2,48.5,52.2,98.8,87.1,69.3,52.5265,13.3766
-74,University of Science and Technology of China,China,"18,573",8.1,6%,,67.1,65,64.9,78.8,69.4,36.9,,
+74,University of Science and Technology of China,China,"18,573",8.1,6%,45:57,67.1,65,64.9,78.8,69.4,36.9,31.8220, 117.28
 75,University of Groningen,Netherlands,"30,009",24.4,28%,52:48:00,66.6,45.4,57.6,90.4,75.8,89.8,,
 76,University of Bristol,United Kingdom,"25,680",14.6,31%,56:44:00,66.5,43.8,53.4,98.6,43.5,89.4,,
 77,Leiden University,Netherlands,"33,648",19.3,20%,60:40:00,66.4,43.2,64.4,86.6,68.4,85.4,,
