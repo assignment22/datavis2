@@ -1,14 +1,14 @@
-University Rank,Name of University,Location,No of student,No_of_student_per_staff,International Student,Female:Male Ratio,Overall_score,Teaching Score,Research Score,Citations Score,Industry Income Score,International Outlook Score,Latitude,Longitude
-1,University of Oxford,United Kingdom,"20,965",10.6,42%,48:52:00,96.4,92.3,99.7,99,74.9,96.2,51.7579,-1.2618
-2,Harvard University,United States,"21,887",9.6,25%,50:50:00,95.2,94.8,99,99.3,49.5,80.5,42.3744,-71.1182
-3,University of Cambridge,United Kingdom,"20,185",11.3,39%,47:53:00,94.8,90.9,99.5,97,54.2,95.8,52.2054,0.1132
-4,Stanford University,United States,"16,164",7.1,24%,46:54:00,94.8,94.2,96.7,99.8,65,79.8,37.4277,-122.1701
-5,Massachusetts Institute of Technology,United States,"11,415",8.2,33%,40 : 60,94.2,90.7,93.6,99.8,90.9,89.3,42.3601,-71.0942
-6,California Institute of Technology,United States,"2,237",6.2,34%,37 : 63,94.1,90.9,97,97.3,89.8,83.6,34.1377,-118.1253
-7,Princeton University,United States,"8,279",8,23%,46:54:00,92.4,87.6,95.9,99.1,66,80.3,40.3431,-74.6551
-8,"University of California, Berkeley",United States,"40,921",18.4,24%,52:48:00,92.1,86.4,95.8,99,76.8,78.4,37.8702,-122.2595
-9,Yale University,United States,"13,482",5.9,21%,52:48:00,91.4,92.6,92.7,97,55,70.9,41.3102,-72.9281
-10,Imperial College London,United Kingdom,"18,545",11.2,61%,40 : 60,90.4,82.8,90.8,98.3,59.8,97.5,51.4988,-0.1749
+University Rank,Name of University,Location,No of student,No_of_student_per_staff,International Student,Female:Male Ratio,Overall_score,Teaching Score,Research Score,Citations Score,Industry Income Score,International Outlook Score,Latitude,Longitude,2018,2019,2020,2021,2022
+1,University of Oxford,United Kingdom,"20,965",10.6,42%,48:52:00,96.4,92.3,99.7,99,74.9,96.2,51.7579,-1.2618,1,1,1,1,1
+2,Harvard University,United States,"21,887",9.6,25%,50:50:00,95.2,94.8,99,99.3,49.5,80.5,42.3744,-71.1182,6,6,7,3,2
+3,University of Cambridge,United Kingdom,"20,185",11.3,39%,47:53:00,94.8,90.9,99.5,97,54.2,95.8,52.2054,0.1132,2,2,3,6,5
+4,Stanford University,United States,"16,164",7.1,24%,46:54:00,94.8,94.2,96.7,99.8,65,79.8,37.4277,-122.1701,4,3,4,2,4
+5,Massachusetts Institute of Technology,United States,"11,415",8.2,33%,40 : 60,94.2,90.7,93.6,99.8,90.9,89.3,42.3601,-71.0942,5,4,5,5,6
+6,California Institute of Technology,United States,"2,237",6.2,34%,37 : 63,94.1,90.9,97,97.3,89.8,83.6,34.1377,-118.1253,3,5,2,4,2
+7,Princeton University,United States,"8,279",8,23%,46:54:00,92.4,87.6,95.9,99.1,66,80.3,40.3431,-74.6551,7,7,6,9,7
+8,"University of California, Berkeley",United States,"40,921",18.4,24%,52:48:00,92.1,86.4,95.8,99,76.8,78.4,37.8702,-122.2595,18,15,13,7,8
+9,Yale University,United States,"13,482",5.9,21%,52:48:00,91.4,92.6,92.7,97,55,70.9,41.3102,-72.9281,12,8,8,8,9
+10,Imperial College London,United Kingdom,"18,545",11.2,61%,40 : 60,90.4,82.8,90.8,98.3,59.8,97.5,51.4988,-0.1749,8,9,10,11,12
 11,Columbia University,United States,"21,781",4.5,38%,49 : 51,89.4,89.4,87.7,97.1,44.8,79.9,40.8075,-73.9626
 11,ETH Zurich,Switzerland,"21,665",14.8,41%,33 : 67,89.4,82.6,95.4,90.7,59.1,97.7,47.3764,8.5476
 13,The University of Chicago,United States,"15,366",6,36%,47:53:00,88.9,86.5,88.8,97.7,56.2,74.2,41.7886,-87.5987
