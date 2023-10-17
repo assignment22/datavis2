@@ -24,6 +24,10 @@
         "field": "Name of University", "type": "nominal",
         "title": "Name"
       },
+      {
+        "field": "No_of_student_per_staff", "type": "nominal",
+        "title": "Number of students to staff"
+      },
       {"field": "University Rank", "type": "nominal", "title":
       "Rank"}
       ]
