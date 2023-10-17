@@ -38,7 +38,7 @@
             "type": "quantitative"
           },
           "size": {"value": 15},
-          "color": {"value": "purple"},
+          "color": {"value": "#df65b0"},
             
         "tooltip": [
             {"field": "Name of University", "type": "nominal", "title":
