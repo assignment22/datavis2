@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 300,
+    "data": {
+      "values": [
+        {"Uni": "Monash", "Teaching": 56.9, "Research": 68.7,"Industry Income":70.4},
+        {"Uni": "Melbourne", "Teaching": 67.1, "Research": 75.9, "Industry Income":78.1}
+      ]
+    },
+    "transform": [{"fold": ["Teaching", "Research","Industry Income"]}],
+  
+    "mark": "bar",
+    "encoding": {
+      "column": {"field": "key", "type": "nominal"},
+      "x": {"field": "Uni", "type": "nominal"},
+      "y": {"field": "value", "type": "quantitative"},
+      
+      "color": {"value": "#fa9fb5"}
+        
+    }
+  }
