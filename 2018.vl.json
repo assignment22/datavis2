@@ -1,38 +1,54 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "repeat": {
-    "row": ["University Rank"],
-    "column": ["2018","2020","2022"]
-  },
-  "spec": {
-    "data": {"url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"},
-
-     "transform": [{"filter":"datum['University Rank'] < 10"}],
-    "mark": "point",
-   
-    "encoding": {
-      "x": {"field": {"repeat": "column"}, "type": "quantitative"},
-      "y": {
-        "field": {"repeat": "row"},
-        "type": "quantitative",
-        "axis": {"minExtent": 30}
-      },
-      "color": {
-        "condition": {
-          "param": "brush",
-          "type": "quantitative"
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "repeat": {
+      "row": ["University Rank"],
+      "column": ["2018","2020","2022"]
+    },
+    "spec": {
+      "data": {"url": "https://raw.githubusercontent.com/assignment22/datavis2/main/World%20University%20Rankings%202023.csv"},
+  
+       "transform": [{"filter":"datum['University Rank'] < 10"}],
+      "mark": "point",
+      "params": [
+        {
+          "name": "brush",
+          "select": {
+            "type": "interval",
+            "resolve": "union",
+            "on": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+            "translate": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+            "zoom": "wheel![event.shiftKey]"
+          }
         },
-        "value": "grey"
-      },
-      "color": {"field": "Name of University", "type": "nominal"},
-      "tooltip": [
-      {
-        "field": "Name of University", "type": "nominal",
-        "title": "Name"
-      },
-      {"field": "University Rank", "type": "nominal", "title":
-      "2023 Rank"}
-      ]
+        {
+          "name": "grid",
+          "select": {
+            "type": "interval",
+            "resolve": "global",
+            "translate": "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
+            "zoom": "wheel![!event.shiftKey]"
+          },
+          "bind": "scales"
+        }
+      ],
+      "encoding": {
+        "x": {"field": {"repeat": "column"}, "type": "quantitative"},
+        "y": {
+          "field": {"repeat": "row"},
+          "type": "quantitative",
+          "axis": {"minExtent": 30}
+        },
+       
+        "color": {"field": "Name of University", "type": "nominal"},
+        "tooltip": [
+        {
+          "field": "Name of University", "type": "nominal",
+          "title": "Name"
+        },
+        {"field": "University Rank", "type": "nominal", "title":
+        "2023 Rank"}
+        ]
+      }
     }
   }
-}
+  
